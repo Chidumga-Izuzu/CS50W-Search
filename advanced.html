@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+      <title>Google Search</title>
+    </head>
+    <body>
+    <div class="sections">
+    <ul>
+       <li><a href="index.html">Home Search</a></li>
+        <li><a href="images.html">Image Search</a></li>
+        <li><a href="advanced.html">Advanced Search</a> </li>
+    </ul>
+    
+    </div>
+  <div class="advanced-page">
+            <h2>Advanced Search</h2>
+        </div>
+        <div id="search_options">
+            <form action="https://google.com/search" class="form-container">
+                <div class="box-item"> Find pages with...</div>
+                <div  class="box-item"></div>
+                <div class="box-item">To do this in the search box</div>
+
+                <div class="box-item describe">all these words:</div>
+                <input type="text" name="as_q" class="grid-item"> 
+                <div class="box-item search-guide">Type the important words</div>
+
+                <div class="box-item describe">this exact word or phrase:</div>
+                <input type="text" name="as_epq" class="grid-item"> 
+                <div class="box-item search-guide">Put exact words in quotes</div>
+
+                <div class="box-item describe">any of these words:</div>
+                <input type="text" name="as_oq" class="grid-item"> 
+                <div class="box-item search-guide">Type OR between all the words you want</div>
+
+                <div class="box-item describe">none these words:</div>
+                <input type="text" name="as_eq" class="grid-item"> 
+                <div class="box-item search-guide">Put a minus sign before words you don't want</div>
+                
+                <div class="box-item"></div>
+                <div class="box-item">
+                    <input type="submit" value="Advanced Search" id="adsearch-btn">
+                </div>
+            </form>
+        </div>
+  </body>
+</html>

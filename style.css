@@ -1,0 +1,121 @@
+  
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.boxes{
+	margin-top: 10px;
+	border-radius: 25px;
+}
+
+.boxes:hover{
+    cursor: pointer;
+    border-color:blue;
+}
+.imgSource{
+    color: rgb(175, 175, 175);
+    text-align: center;
+}
+.button {
+    background-color: rgb(37, 112, 250);
+    color: white;
+    margin-left: 555px;
+}
+.acts {
+    
+    text-align: center;
+ 
+}
+
+input[type=text] {
+  padding: 12px 10px;
+  margin: 9px 3px;
+  box-sizing: border-box;
+
+}
+
+h2 {
+    display: block;
+    font-size: 1.2em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight:inherit;
+    font-size: 20px;
+    margin: 25px 35px;
+}
+  
+.advanced-page {
+
+	min-height: 100%;
+    border-bottom:7px solid grey;
+    color: #d93025;
+    padding: 2px;
+    width: 120%;
+    vertical-align: baseline;
+    font-weight: inherit;
+    font-size: 100%;
+    text-decoration: none;
+    font-size: inherit;
+    font-family: sans-serif;
+}
+
+
+.form-container {
+    display: inline-grid;
+    grid-template-columns: 200px 300px auto;
+    padding: 20px;
+}
+
+.box-item {
+    margin: 10px;
+}
+
+.describe {
+    font-size: 100%;
+}
+
+.search-guide {
+    font-size: 13px;
+}
+
+#adsearch-btn {
+    background-color: #4d90fe;
+    background-image: -webkit-linear-gradient(top,#4d90fe,#4787ed);
+    box-shadow: none;
+    border: 1px solid #3079ed;
+    color: #fff;
+    user-select: none;
+    line-height: 100%;
+    height: 30px;
+    min-width: 120px;
+    float: right;
+    width: 200px;
+
+}
+
